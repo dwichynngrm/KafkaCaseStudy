@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingAPI", "ShoppingAPI\ShoppingAPI.csproj", "{965B5763-AFFA-4A62-B56B-BFAD87CA9764}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KafkaCreateTopics", "KafkaCreateTopics\KafkaCreateTopics.csproj", "{A56AB7F3-6E6A-465D-914D-DECAF14724AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaApp", "KafkaApp\KafkaApp.csproj", "{A9C21AEB-CAD3-49BA-9E4B-1539D156711C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaListeningApp", "KafkaListeningApp\KafkaListeningApp.csproj", "{68B1FB9B-162F-4787-8901-1930C0A26FF2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{965B5763-AFFA-4A62-B56B-BFAD87CA9764}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{965B5763-AFFA-4A62-B56B-BFAD87CA9764}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{965B5763-AFFA-4A62-B56B-BFAD87CA9764}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{965B5763-AFFA-4A62-B56B-BFAD87CA9764}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A56AB7F3-6E6A-465D-914D-DECAF14724AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A56AB7F3-6E6A-465D-914D-DECAF14724AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A56AB7F3-6E6A-465D-914D-DECAF14724AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A56AB7F3-6E6A-465D-914D-DECAF14724AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9C21AEB-CAD3-49BA-9E4B-1539D156711C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9C21AEB-CAD3-49BA-9E4B-1539D156711C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9C21AEB-CAD3-49BA-9E4B-1539D156711C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9C21AEB-CAD3-49BA-9E4B-1539D156711C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68B1FB9B-162F-4787-8901-1930C0A26FF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68B1FB9B-162F-4787-8901-1930C0A26FF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68B1FB9B-162F-4787-8901-1930C0A26FF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68B1FB9B-162F-4787-8901-1930C0A26FF2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B2E9E2F4-6382-40D0-B089-A4639497AD59}
+	EndGlobalSection
+EndGlobal
